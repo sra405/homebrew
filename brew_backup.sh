@@ -2,7 +2,7 @@
 cd /Users/scottadams/Documents/Homebrew
 
 # run the backup
-brew bundle dump
+brew bundle dump --force
 
 # add to git repo
 git add .
