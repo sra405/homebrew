@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Homebrew Back-Uperer"
 
 # change to my backup location
