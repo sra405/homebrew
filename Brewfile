@@ -24,7 +24,7 @@ brew "graphviz"
 brew "helm"
 brew "hugo"
 brew "jq"
-brew "kubernetes-cli", link: false
+brew "kubernetes-cli"
 brew "kubectx"
 brew "kustomize"
 brew "netlify-cli"
