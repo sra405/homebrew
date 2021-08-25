@@ -1,3 +1,4 @@
+tap "auth0/auth0-cli"
 tap "datawire/blackbird"
 tap "gromgit/fuse"
 tap "hashicorp/tap"
@@ -45,6 +46,7 @@ brew "watch"
 brew "wget"
 brew "yamllint"
 brew "yarn"
+brew "auth0/auth0-cli/auth0"
 brew "datawire/blackbird/telepresence-legacy"
 brew "hashicorp/tap/terraform", link: false
 brew "heroku/brew/heroku"
