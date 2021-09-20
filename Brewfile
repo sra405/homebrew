@@ -33,7 +33,7 @@ brew "jq"
 brew "kubernetes-cli"
 brew "kubectx"
 brew "kustomize"
-brew "node", link: false
+brew "node"
 brew "netlify-cli"
 brew "nvm"
 brew "openjdk"
