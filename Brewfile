@@ -21,6 +21,7 @@ brew "circleci"
 brew "colordiff"
 brew "commitizen", link: false
 brew "coreutils"
+brew "dasel"
 brew "docker", link: false
 brew "docker-machine"
 brew "gawk"
