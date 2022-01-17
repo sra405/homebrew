@@ -6,7 +6,7 @@ echo "Homebrew Back-Uperer"
 cd $HOME/Documents/repos/Personal/homebrew
 
 # run the backup
-/usr/local/bin/brew bundle dump --force
+/opt/homebrew/bin/brew bundle dump --force
 
 # add to git repo
 git add .
