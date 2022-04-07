@@ -12,4 +12,4 @@ RUN apt-get update \
 USER linuxbrew
 WORKDIR /home/linuxbrew
 COPY . .
-RUN brew bundle
+RUN brew bundle || true
