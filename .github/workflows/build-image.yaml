@@ -8,7 +8,6 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  TAG_BASE: ghcr.io/${{ github.actor }}/${{ github.repository }}
 
 jobs:
   build-and-push-image:
@@ -33,4 +32,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.TAG_BASE }}:latest,${{ env.TAG_BASE }}:${{ env.GITHUB_SHA }}
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest,${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.GITHUB_SHA }}
