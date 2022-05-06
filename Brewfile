@@ -64,12 +64,13 @@ brew "poetry"
 brew "postgresql", restart_service: true
 brew "pre-commit"
 brew "prettier"
+brew "pyenv"
 brew "ruby-build"
 brew "rbenv"
 brew "ruby-install"
 brew "sl"
 brew "tcl-tk"
-brew "terraform", link: false
+brew "terraform"
 brew "terraform-docs"
 brew "tfenv", link: false
 brew "tflint"
