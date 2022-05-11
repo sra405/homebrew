@@ -3,10 +3,12 @@
 echo "Homebrew Back-Uperer"
 
 # change to my backup location
-cd $HOME/Documents/repos/Personal/homebrew
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd $SCRIPT_DIR
 
 # run the backup
-/opt/homebrew/bin/brew bundle dump --force
+BREW=$( which brew )
+$BREW bundle dump --force
 
 # add to git repo
 git add .
