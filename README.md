@@ -7,7 +7,7 @@ Nothing special here just a repo to store regular automated backups of my Homebr
 
 ### How to Use
 
-Edit the `brew_backup.sh` to point to your repo, ensuring your machine is authorised to push changes to that repo by default. This works well in as a cronjob to fully automate the backup.
+Run either the backup `./brew_backup.sh` or restore `./brew_restore.sh`, ensuring your machine is authorised to push changes the repo. This works well in as a cronjob to fully automate the backup.
 
 ### NOTES
 
