@@ -76,7 +76,7 @@ brew "ruby-build"
 brew "rbenv"
 brew "ruby-install"
 brew "sl"
-brew "tcl-tk"
+brew "tcl-tk", link: false
 brew "terraform-docs"
 brew "tfenv"
 brew "tflint"
