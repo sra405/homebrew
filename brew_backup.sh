@@ -10,5 +10,5 @@ cd $HOME/Documents/repos/Personal/homebrew
 
 # add to git repo
 git add .
-git commit -m "Regular automated backup"
+git commit -m "Regular automated backup [skip ci]"
 git push
