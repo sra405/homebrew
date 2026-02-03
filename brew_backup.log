@@ -1,4 +1,0 @@
-Homebrew Back-Uperer
-[main 4255980] Regular automated backup [skip ci]
- 3 files changed, 2 insertions(+), 87 deletions(-)
-fatal: could not read Username for 'https://github.com': Device not configured
