@@ -3,7 +3,7 @@
 echo "Homebrew Back-Uperer"
 
 # change to my backup location
-cd $HOME/Documents/repos/Personal/homebrew
+cd $HOME/homebrew
 
 # run the backup
 /opt/homebrew/bin/brew bundle dump --force
